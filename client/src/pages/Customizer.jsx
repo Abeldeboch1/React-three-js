@@ -52,7 +52,7 @@ const Customizer = () => {
 
     try {
       setGeneratingImg(true);
-
+      
       const response = await fetch('https://react-three-js-9x4r.onrender.com/api/v1/dalle', {
         method: 'POST',
         headers: {
@@ -172,4 +172,4 @@ const Customizer = () => {
   )
 }
 
-export default Customizer
+export default Customizer;
